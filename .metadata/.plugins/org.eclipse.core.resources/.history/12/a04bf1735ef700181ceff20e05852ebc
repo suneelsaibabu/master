@@ -1,0 +1,12 @@
+package assign;
+
+public class localThread {
+public static void main(String[] args) {
+	ThreadLocal lt=new ThreadLocal();
+	lt.set("suneel");
+	System.out.println(lt.get());
+	lt.remove();
+	System.out.println(lt.get());
+	
+}
+}

@@ -1,0 +1,33 @@
+package assign;
+
+ class myThread extends Thread{
+	static int id=0;
+	private static ThreadLocal tl=new ThreadLocal()
+	{
+		protected Object initialValue() 
+		{
+			return ++id;
+			
+		}
+	};
+ 
+	 myThread(String Name)
+	{
+		super(Name);
+	}
+	public void run()
+	{
+		System.out.println(Thread.currentThread().getName() +"current cust id" +tl.get());
+	}
+	}
+public class localThread{
+	public static void main(String [] args) {
+		
+	
+	myThread m=new myThread("customer thread-1");
+	myThread m1=new myThread("customer thread-2");
+m.start();
+m1.start();
+	
+}}
+

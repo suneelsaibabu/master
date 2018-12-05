@@ -1,0 +1,38 @@
+package assign;
+
+public class CustomerLocal extends Thread {
+	static Integer id=0;
+private static ThreadLocal tl=new ThreadLocal()
+{
+
+	protected Integer initialValue()
+{
+		return ++id;
+	}};
+
+	CustomerLocal(String name){
+		super(name);
+	}
+	public void run()
+	{
+		System.out.println(Thread.currentThread().getName() +"execute with custID"+tl.get());
+	}
+}
+class CustomerLocal {
+	public static void main(String [] args) {
+	CustomerLocal t=new CustomerLocal("thread1");
+	CustomerLocal t1=new CustomerLocal("thead2");
+	CustomerLocal t2=new CustomerLocal("thread3");
+	t.start();
+	t1.start();
+	t2.start();
+		
+	}
+
+	public String get() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
+
+
