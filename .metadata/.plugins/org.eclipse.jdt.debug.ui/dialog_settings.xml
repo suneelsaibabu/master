@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="141"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="360"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="73"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
+	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
+		<item key="SashWeightTree" value="500"/>
+		<item key="SashWeightDetails" value="500"/>
+		<item key="WIDTH" value="600"/>
+		<item key="HEIGHT" value="156"/>
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=suneel/src&amp;lt;com.suneel{FindLowestDifference.java[FindLowestDifference&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=assign/src&amp;lt;assign{localThread.java[localThread&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=MyTest/src&amp;lt;{MTest.java[demo&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=EmployeeBase/\/Users\/bodagalasuneelsaibabu\/.m2\/repository\/net\/bytebuddy\/byte-buddy-agent\/1.10.20\/byte-buddy-agent-1.10.20.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/test=/true=/=/maven.groupId=/net.bytebuddy=/=/maven.artifactId=/byte-buddy-agent=/=/maven.version=/1.10.20=/=/maven.scope=/test=/&amp;lt;net.bytebuddy.agent(Attacher.class[Attacher&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=Test/src&amp;lt;{Test.java[Test&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=Test/src&amp;lt;Pack{Student.java[Student&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=Test/src&amp;lt;{Employee.java[Employee&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=Sel/src&amp;lt;{Main.java[Main&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_X_ORIGIN" value="35"/>
+			<item key="DIALOG_Y_ORIGIN" value="0"/>
+		</section>
+	</section>
+	<section name="expressionHistory">
+	</section>
+</section>

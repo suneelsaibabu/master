@@ -1,0 +1,15 @@
+package Sri;
+
+public class Test2 {
+	
+	int[] a= {1,2,3,4};
+	int[] b= {1,2,3,4};
+	public void result() {
+		for(int i=0;i<=a.length;i++) {
+			for(int j=i+1;i<=a.length;j++) {
+				int result =a[i]+a[j];
+			}
+		}
+	}
+
+}

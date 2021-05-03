@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="toDoService"/>
+		<item key="casesensitive" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="wrap" value="true"/>
+		<item key="wholeword" value="false"/>
+		<list key="findhistory">
+			<item value="&#x09;&#x09;if (k &gt; 0) {"/>
+			<item value="toDoService"/>
+			<item value="ToDoService"/>
+			<item value="spring"/>
+			<item value="3.8"/>
+			<item value="8"/>
+			<item value="get all the beans"/>
+			<item value="end"/>
+			<item value=" end-begin"/>
+		</list>
+		<list key="replacehistory">
+			<item value="groupId"/>
+			<item value="artifactId"/>
+			<item value="&lt;dependency&gt;&#x0A;    &lt;groupid&gt;org.hibernate&lt;/groupid&gt;&#x0A;    &lt;artifactid&gt;hibernate-annotations&lt;/artifactid&gt;&#x0A;    &lt;version&gt;3.3.0.ga&lt;/version&gt;&#x0A;&lt;/dependency&gt;"/>
+			<item value="myLocal"/>
+			<item value="CustomerLocal1"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_WIDTH" value="290"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="409"/>
+		<item key="DIALOG_X_ORIGIN" value="488"/>
+		<item key="DIALOG_Y_ORIGIN" value="110"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="245"/>
+		<item key="DIALOG_Y_ORIGIN" value="286"/>
+	</section>
+</section>

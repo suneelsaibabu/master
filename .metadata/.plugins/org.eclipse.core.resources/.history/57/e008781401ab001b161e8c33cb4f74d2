@@ -1,0 +1,30 @@
+package com.Horizon.App;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(path = "todo/v1")
+public class MyController {
+
+	@Autowired
+	ToDoImpl toDoService;
+	
+//	@Autowired
+//	ToDoBussiness toDoBusiness;
+
+	@GetMapping
+	public List<String> greet() {
+		//ToDoBussiness to=new ToDoBussiness(toDoService);
+		List<String> todo = toDoService.toDoService("suneel");
+		
+		//List<String> outPut = to.toDoList("suneel");
+
+		return outPut;
+	}
+}

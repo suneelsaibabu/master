@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MyController.java&apos; to &apos;Application/src/main/java/com.Horizon.App&apos;&#x0A;- Original project: &apos;Application&apos;&#x0A;- Destination element: &apos;Application/src/main/java/com.Horizon.App&apos;&#x0A;- Original element: &apos;com.Horizon.App.Controller.MyController.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Horizon.App" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Horizon.App.Controller{MyController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1615851040749" units="1" version="1.0"/>
+</session>

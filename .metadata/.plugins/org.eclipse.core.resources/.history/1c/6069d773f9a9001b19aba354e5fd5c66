@@ -1,0 +1,18 @@
+package LeetCode;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class RemoveDuplicate {
+	
+	public void  find() {
+	char[] arr= {'a','b','c','d'};
+		Map<Integer,Character> val=new HashMap<>();
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

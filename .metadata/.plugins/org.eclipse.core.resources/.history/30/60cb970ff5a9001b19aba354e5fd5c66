@@ -1,0 +1,19 @@
+package Sri;
+
+public class Test2 {
+	
+	int[] a= {1,2,3,4};
+	int[] b= {1,2,3,4};
+	
+	public int[] twoSum(int[] nums, int target) {
+		
+	return new int[] {};
+	}
+	
+public static void main(String[] args) {
+	
+	
+	
+}
+	
+}

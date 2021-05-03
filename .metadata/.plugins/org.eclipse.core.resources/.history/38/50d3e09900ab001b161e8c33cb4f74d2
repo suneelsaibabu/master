@@ -1,0 +1,31 @@
+package com.Horizon.App;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+
+@Component
+public class ToDoImpl implements ToDoService {
+
+	@Override
+	public List<String> toDoService(String user) {
+		List<String> list = new ArrayList<String>();
+		List<String> li = Arrays.asList("spring core", "spring peak", "waterbott");
+		if (user.equalsIgnoreCase("suneel")) {
+			System.out.println("we found user");
+		} else {
+			System.out.println("no matching user found");
+		}
+		for (String todos : li) {
+			if (todos.contains("spring")) {
+				list.add(todos);
+			}
+		}
+		return li;
+
+	}
+}
