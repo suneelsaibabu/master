@@ -9,7 +9,7 @@ public class Comparatar{
 //collection comparator interface is having only one method
 	// which is single asbstract method 
 	//in java 8 if we have single method we can go for lamda expression
-	//comparator method is having is one method that is compare method
+	//comparator interface is having is one method that is compare method
 	
 	
 	
